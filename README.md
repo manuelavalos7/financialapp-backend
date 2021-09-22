@@ -1,7 +1,7 @@
 DEVELOPMENT SETUP
 1. start database: 
 
-- create a file named '.env' containing the following:
+- create a file in the same directory as package.json named '.env' containing the following:
 ```
 NODE_ENV={development or production}
 PGUSER={name of database user}
