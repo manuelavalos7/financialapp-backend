@@ -1,0 +1,1 @@
+docker build -t financial-db:1.0.0 .

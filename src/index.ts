@@ -1,10 +1,11 @@
 import express from "express";
+import {db} from "./services";
 
 const app = express()
 const port = process.env.NODE_ENV ==="production" ? 8080 : 5000
 
 app.get("/", (req:any, res:any)=>{
-    res.send("hello")
+    res.send("hello");
 })
 
 app.listen(port, ()=>{
